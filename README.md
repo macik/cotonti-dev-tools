@@ -17,7 +17,7 @@ To enable: select menu `Window → Preferences→` then `PHP → Code style → 
 
   *…under development…*
 
-## Thirs party tools and how-to's
+## Third party tools and how-to's
 
 ### Sublime text
 
