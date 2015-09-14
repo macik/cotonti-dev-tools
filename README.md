@@ -4,6 +4,8 @@
 
 Snippets, tools and common rules described here are actual for `Cotonti Siena` version. 
 
+*Note: This collection is still under development and extending, but can be used «as is» now.*
+
 ## Eclipse IDE ##
 
 All Eclipse IDE related files can be found in `eclipse` sub folder.
