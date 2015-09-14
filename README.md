@@ -1,26 +1,60 @@
-# Cotonti Coding style tools
+# Cotonti Development tools #
 
-> Helpfull tools to maintain Cotonti CMF Coding Style
+> Helpful tools to maintain Cotonti CMF Coding Style and speed up development
 
-## Eclipse IDE
+Snippets, tools and common rules described here are actual for `Cotonti Siena` version. 
 
-### Code Formatter
+## Eclipse IDE ##
 
-To enable: select menu `Window → Preferences→` then `PHP → Code style → Formatter` and press `Import`, select file `PHP Formatter styles.xml`. 
+All Eclipse IDE related files can be found in `eclipse` sub folder.
+
+### Code Formatter ###
+
+To enable: select menu `Window → Preferences→` then `PHP → Code style → Formatter` and press `Import`, select file `PHP-formatter-styles.xml`. 
+
+This styles based on [PSR-2](http://www.php-fig.org/psr/psr-2/) rules with some changes (tabs for indentation, etc.) to meet current state of Cotonti coding style guides.
 
 **Not implemented** in these styles:
  * multiline SQL queries formating
- * switch/case `break` operators ident
+ * switch/case `break` operators indent
  * …may be something else — just make an [issue](https://github.com/macik/cotonti-coding_style/issues/new).
 
-### Code snippets
+### Code snippets ###
 
   *…under development…*
 
-## Thirs party tools and how-to's
+Using code snippets can improve developing in times. It's helpful for new extension developing as a extension files templates.
 
-### Sublime text
+### Emmet plugin ###
+
+[Emmet](http://emmet.io/) is a plugin which greatly improves HTML & CSS workflow.
+It's available for many modern editors and IDE. Here you can found it as [Eclipse IDE plugin](https://github.com/emmetio/emmet-eclipse#readme).
+
+#### XTemplate snippets ####
+
+Emmet plugin is useful itself. More over we provide some snippets to faster template (XTemplate files) development with Emmet.
+
+To use Template snippets open Eclipse preferences and go to `Emmet` → `Snippets`.
+Click `Import...` button and select the `Emmet-snippets-xtemplate.xml` file.
+
+List of some snippets:
+* `BLOCK` → `<!-- BEGIN: --> <!-- END: -->` block
+* `FOR` → `<!-- FOR {KEY}, {VALUE} IN {MY_ARRAY} --> <!-- ENDFOR -->`
+* `IF` → `<!-- IF () --> <!-- ENDIF -->`
+
+## Third party tools and how-to's ##
+
+Here you can found info about universal tools or specialized third party tools for developing with Cotonti.
+
+### «Editor config» ###
+
+[Editor config](http://editorconfig.org/) is a name of standard that helps developers define and maintain consistent coding styles between different editors and IDEs. The EditorConfig project consists of a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles.
+
+File with editors configuration named `.editorconfig` and located in root folder.
+
+### Sublime text ###
 
 A [Sublime Text](http://www.sublimetext.com/) package containing frequently used snippets for [Cotonti CMF](Cotonti CMF) developers.
 
  > Link: https://github.com/trustmaster/sublime-cotonti
+

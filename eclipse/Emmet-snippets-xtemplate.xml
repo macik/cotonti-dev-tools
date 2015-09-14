@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><templates><template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="XTemplate BLOCK (BEGIN-END)" enabled="true" name="BLOCK">&lt;!-- BEGIN: ${cursor} --&gt; &#13;
+   ${child}&#13;
+&lt;!-- END: ${cursor} --&gt;</template><template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Cotonti Extension settings block [BEGIN_COT_EXT]" enabled="true" name="COT_EXT">[BEGIN_${cot_mark}_EXT]&#13;
+  ${cursor}${child}&#13;
+[END_${cot_mark}_EXT]</template><template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="Cotonti Extension variables block [BEGIN_COT_EXT_CONFIG]" enabled="true" name="COT_EXT_CONF">[BEGIN_${cot_mark}_EXT_CONFIG]&#13;
+[END_${cot_mark}_EXT_CONFIG]</template><template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="COT_EXT_CONFIG_STRUCTURE" enabled="true" name="COT_EXT_STRUCT">[BEGIN_${cot_mark}_EXT_CONFIG_STRUCTURE]&#13;
+${cursor}&#13;
+[END_${cot_mark}_EXT_CONFIG_STRUCTURE]</template><template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="XTemplate FOR (FOR - ENDFOR)" enabled="true" name="FOR">&lt;!-- FOR {${cursor}VALUE} IN {${cursor}MY_ARRAY} --&gt;&#13;
+    {$child}&#13;
+&lt;!-- ENDFOR --&gt;</template><template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="XTemplate FOR (FOR - ENDFOR)" enabled="true" name="FOR">&lt;!-- FOR {${cursor}KEY}, {${cursor}VALUE} IN {${cursor}MY_ARRAY} --&gt;&#13;
+    ${cursor}${child}&#13;
+&lt;!-- ENDFOR --&gt;</template><template autoinsert="true" context="io.emmet.eclipse.templates.html" deleted="false" description="XTemplate IF (IF - ENDIF)" enabled="true" name="IF">&lt;!-- IF (${cursor}) --&gt;&#13;
+    ${child}&#13;
+&lt;!-- ENDIF --&gt;</template></templates>
