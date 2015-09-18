@@ -44,6 +44,11 @@ List of some snippets:
 * `FOR` → `<!-- FOR {KEY}, {VALUE} IN {MY_ARRAY} --> <!-- ENDFOR -->`
 * `IF` → `<!-- IF () --> <!-- ENDIF -->`
 
+### Using xDebug ###
+
+There are many «how-to's» around the net about setting up xDebugger with Eclipse IDE. Here you can find small file `xDebug-php-ini.ini` with basic settings that provides debugging environment. This setting need to be located in you `php.ini` file of working copy of PHP install folder. Be sure for actual path in `zend_extension` parameter and that port specified in `xdebug.remote_port` are free from use of other programs.
+
+
 ## Third party tools and how-to's ##
 
 Here you can found info about universal tools or specialized third party tools for developing with Cotonti.
