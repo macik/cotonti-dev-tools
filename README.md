@@ -53,6 +53,19 @@ There are many «how-to's» around the net about setting up xDebugger with Eclip
 
 Here you can found info about universal tools or specialized third party tools for developing with Cotonti.
 
+### Git and .gitignore ###
+
+Using you own development environment forces to exclude some development specific 
+files from project (it can be logs, IDE setting files, third-party tools, etc).
+The easiest way is to use `.gitignore` file. Example of this kind file for Eclipse IDE can be found in `eclipse/Eclipse.gitignore`.
+
+Other IDE specific `.gitignore` can be [found here](https://github.com/github/gitignore) or you can build your own with [gitignore.io](https://www.gitignore.io/)
+
+
+#### Cotonti project .gitignore ####
+
+Cotonti project tries to maintain its own .gitignore file as clear as it possible. This means that adding some OS/IDE specific files (related to your specific environment) is not a good idea. So the right way to set up exclusions for these files is to [Use global .gitignore](https://help.github.com/articles/ignoring-files/#create-a-global-gitignore) or [Use explicit repository excludes](https://help.github.com/articles/ignoring-files/#explicit-repository-excludes).
+
 ### «Editor config» ###
 
 [Editor config](http://editorconfig.org/) is a name of standard that helps developers define and maintain consistent coding styles between different editors and IDEs. The EditorConfig project consists of a file format for defining coding styles and a collection of text editor plugins that enable editors to read the file format and adhere to defined styles.

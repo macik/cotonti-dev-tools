@@ -1,0 +1,47 @@
+# This file utilizes common Eclipse IDE data files that should not been commited to actual project
+#
+# Other IDE specific .gitignore can be found here: https://github.com/github/gitignore
+# or you can build your own with: https://www.gitignore.io/
+
+*.pydevproject
+.metadata
+.gradle
+bin/
+tmp/
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.settings/
+.loadpath
+
+# Eclipse Core
+.project
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# JDT-specific (Eclipse Java Development Tools)
+.classpath
+
+# Java annotation processor (APT)
+.factorypath
+
+# PDT-specific
+.buildpath
+
+# sbteclipse plugin
+.target
+
+# TeXlipse plugin
+.texlipse
+
+# Toad Extension plugin
+.teeproject
