@@ -6,6 +6,13 @@ Snippets, tools and common rules described here are actual for `Cotonti Siena` v
 
 *Note: This collection is still under development and extending, but can be used «as is» now.*
 
+## Coding standards ##
+
+Main rules used for Cotonti project development you can find [here](https://www.cotonti.com/docs/devel/coding_style).
+The page is outdated a little, but you can learn Cotonti code style basics.
+In a two words, Cotonti mainly uses [PSR-2](http://www.php-fig.org/psr/psr-2/) rules, but still not fully compliant with this standard. Base difference is Tabs indentation used for Cotonti project PHP files.
+
+
 ## Eclipse IDE ##
 
 All Eclipse IDE related files can be found in `eclipse` sub folder.
@@ -65,6 +72,19 @@ Other IDE specific `.gitignore` can be [found here](https://github.com/github/gi
 #### Cotonti project .gitignore ####
 
 Cotonti project tries to maintain its own .gitignore file as clear as it possible. This means that adding some OS/IDE specific files (related to your specific environment) is not a good idea. So the right way to set up exclusions for these files is to [Use global .gitignore](https://help.github.com/articles/ignoring-files/#create-a-global-gitignore) or [Use explicit repository excludes](https://help.github.com/articles/ignoring-files/#explicit-repository-excludes).
+
+### Coding standards fixer ###
+
+[PHP Coding Standards Fixer](http://cs.sensiolabs.org/) is PHP utility (that can be installed via Composer) that helps to fix common formating inconsistency in your code. It allows to analyze and fix PHP code to conform PSR standards. 
+As Cotonti used slightly different coding style rules you must tune «CS Fixer» settings to meet them. Here you can find config file (`.php_cs`) with Cottonti specific settings. Copy it to folder with your code and run «CS Fixer» with command line:
+```
+php php-cs-fixer.phar fix
+```
+You should see something like this:
+```
+Loaded config from "\www\sites\test\.php_cs"
+Fixed all files in 0.266 seconds, 3.750 MB memory used
+```
 
 ### «Editor config» ###
 
