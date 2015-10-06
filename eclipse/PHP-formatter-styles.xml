@@ -55,8 +55,8 @@
 <setting id="org.eclipse.php.formatter.core.formatter.comment.format_source_code" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.comment.indent_parameter_description" value="false"/>
 <setting id="org.eclipse.php.formatter.core.formatter.comment.indent_root_tags" value="true"/>
-<setting id="org.eclipse.php.formatter.core.formatter.comment.insert_new_line_before_root_tags" value="true"/>
-<setting id="org.eclipse.php.formatter.core.formatter.comment.insert_new_line_for_parameter" value="true"/>
+<setting id="org.eclipse.php.formatter.core.formatter.comment.insert_new_line_before_root_tags" value="false"/>
+<setting id="org.eclipse.php.formatter.core.formatter.comment.insert_new_line_for_parameter" value="false"/>
 <setting id="org.eclipse.php.formatter.core.formatter.comment.line_length" value="250"/>
 <setting id="org.eclipse.php.formatter.core.formatter.comment.new_lines_at_block_boundaries" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.comment.new_lines_at_javadoc_boundaries" value="true"/>
@@ -121,7 +121,7 @@
 <setting id="org.eclipse.php.formatter.core.formatter.insert_space_after_opening_paren_in_switch" value="false"/>
 <setting id="org.eclipse.php.formatter.core.formatter.insert_space_after_opening_paren_in_while" value="false"/>
 <setting id="org.eclipse.php.formatter.core.formatter.insert_space_after_postfix_operator" value="false"/>
-<setting id="org.eclipse.php.formatter.core.formatter.insert_space_after_prefix_operator" value="false"/>
+<setting id="org.eclipse.php.formatter.core.formatter.insert_space_after_prefix_operator" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.insert_space_after_question_in_conditional" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.insert_space_after_semicolon_in_for" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.insert_space_after_unary_operator" value="false"/>
@@ -176,7 +176,7 @@
 <setting id="org.eclipse.php.formatter.core.formatter.insert_space_before_opening_paren_in_method_invocation" value="false"/>
 <setting id="org.eclipse.php.formatter.core.formatter.insert_space_before_opening_paren_in_switch" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.insert_space_before_opening_paren_in_while" value="true"/>
-<setting id="org.eclipse.php.formatter.core.formatter.insert_space_before_postfix_operator" value="false"/>
+<setting id="org.eclipse.php.formatter.core.formatter.insert_space_before_postfix_operator" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.insert_space_before_prefix_operator" value="false"/>
 <setting id="org.eclipse.php.formatter.core.formatter.insert_space_before_question_in_conditional" value="true"/>
 <setting id="org.eclipse.php.formatter.core.formatter.insert_space_before_semicolon" value="false"/>
