@@ -11,8 +11,15 @@ tab_width = 4
 insert_final_newline = true
 trim_trailing_whitespace = true
 
+
 [*.md]
 trim_trailing_whitespace = false
 
 [*.tpl]
 
+[*.css]
+indent_style = space
+indent_size = 2
+
+[*.{html,css,php}]
+max_line_length = 100
