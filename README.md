@@ -34,6 +34,10 @@ This styles based on [PSR-2](http://www.php-fig.org/psr/psr-2/) rules with some 
 
 Using code snippets can improve developing in times. It's helpful for new extension developing as a extension files templates.
 
+For speed up extension development you can check these links:
+ * `Extension template` — Cotonti plugin for fast «barebone» extension creation [GitHub link](https://github.com/macik/cot-extension_template)
+ * `Cotonti Developer Tools` Windows utility for extension generation and conversion  [:ru: link](http://littledev.ru/news/cotonti/cotontidev/cotdevtools.html) 
+
 ### Emmet plugin ###
 
 [Emmet](http://emmet.io/) is a plugin which greatly improves HTML & CSS workflow.
