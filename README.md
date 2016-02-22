@@ -6,6 +6,10 @@ Snippets, tools and common rules described here are actual for `Cotonti Siena` v
 
 *Note: This collection is still under development and extending, but can be used «as is» now.*
 
+There are a lot of tools for developers that can help in development process or even move your skills to a new level. If you try to be a good enough and make a good products you should know best practices for code generation, presentation and release at least.
+We can not recommend any specific tool or way of programming as development stack every user choose can differ a lot from each other, but we provide info for some of it and point to some ways to do so.
+
+
 ## Coding standards ##
 
 Main rules used for Cotonti project development you can find [here](https://www.cotonti.com/docs/devel/coding_style).
@@ -96,9 +100,25 @@ Fixed all files in 0.266 seconds, 3.750 MB memory used
 
 File with editors configuration named `.editorconfig` and located in root folder.
 
-### Sublime text ###
+## Sublime text ##
 
 A [Sublime Text](http://www.sublimetext.com/) package containing frequently used snippets for [Cotonti CMF](Cotonti CMF) developers.
 
  > Link: https://github.com/trustmaster/sublime-cotonti
+
+## Universal tools ##
+
+Be sure that some of this standalone tools you can find as a plugin for your preferred IDE. Also you can find even more just with simple internat search.
+
+### Javascript files tools ###
+
+* [Closure compilier](https://github.com/google/closure-compiler) - **JavaScript** files minimizer (allow to create source map files)
+
+### CSS files tools ###
+
+[CSSComb](http://csscomb.com/) — prettify
+
+### Graphic files tools ###
+
+[Image Catalyst](https://github.com/lorents17/iCatalyst) — Quite possibly best tool for Windows platform to lossless image compression
 
